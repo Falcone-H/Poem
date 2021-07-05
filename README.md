@@ -12,15 +12,15 @@
 
 ## 小程序截图
 
-<img src="./imgs/1.jpg" alt="1" style="zoom: 20%;" />
+<img src="./imgs/1.jpg" alt="1" style="zoom: 25%;" />
 
-<img src="./imgs/2.jpg" alt="2" style="zoom:20%;" />
+<img src="./imgs/2.jpg" alt="2" style="zoom:25%;" />
 
 
 
-<img src="./imgs/4.jpg" alt="4" style="zoom:20%;" />
+<img src="./imgs/4.jpg" alt="4" style="zoom:25%;" />
 
-<img src="./imgs/3.jpg" alt="3" style="zoom:20%;" />
+<img src="./imgs/3.jpg" alt="3" style="zoom:25%;" />
 
 
 
