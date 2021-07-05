@@ -1,0 +1,36 @@
+<view>
+  <view class="page">
+    <image class="bg" src="../../images/credit/mingshimingke.png" mode="aspectFill"></image>
+    <view class="top_message">
+      <view>积分余额</view>
+      <view>0</view>
+    </view>
+    <view class="mingxi">
+      <view class="jifenmingxi">积分明细</view>
+    </view>
+    <view class="line"></view>
+  </view>
+  <scroll-view class="list" style="{{'height:'+(scrollH+'px')+';'}}" scroll-y="true">
+    <block wx:for="{{list}}" wx:for-item="item" wx:for-index="index">
+      <view class="item1">
+        <view class="sub_item">
+          <view class="item_title">{{item.title}}</view>
+          <block wx:if="{{item.type==1}}">
+            <view class="integral1">{{'+'+item.integral}}</view>
+          </block>
+          <block wx:else>
+            <view class="integral2">{{'-'+item.integral}}</view>
+          </block>
+        </view>
+        <view class="time">{{item.add_time}}</view>
+        <view class="item_line"></view>
+      </view>
+    </block>
+  </scroll-view>
+  <block>
+    <view class="xiangziwrap">
+      <image class="xiangzi" src="../../images/credit/xiangzi.png" mode="aspectFill"></image><text
+        class="xiangzi_txt">暂无积分明细</text>
+    </view>
+  </block>
+</view>

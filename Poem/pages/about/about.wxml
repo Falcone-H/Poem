@@ -1,0 +1,8 @@
+<view>
+  <view class="info_box">
+   <image src="../../images/about/about.png"></image>
+    <view class="title">名称：远诗</view>
+    <view class="version">版本：Version 2.0.1</view>
+    <view class="author">作者：Falcone</view>
+  </view>
+</view>

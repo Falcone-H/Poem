@@ -1,0 +1,23 @@
+<view>
+  <scroll-view class="scroll-box" scroll-x scroll-with-animation scroll-into-view="{{toView}}"
+    bindtouchstart="touchStart" bindtouchend="touchEnd">
+    <view wx:for="{{poemData}}" wx:key="{{item}}" class="card-box" id="card_{{index}}">
+      <view class="card" bindtap='handleShow' style="background-image: url({{item.image}}); background-size: cover">
+        <l-transition show="{{ isShow }}" class="transition">
+          <view class="poem_content">
+            <view class="title">
+              <rich-text nodes="{{item.title}}"></rich-text>
+            </view>
+            <view class="content">
+              <rich-text nodes="{{item.content}}"></rich-text>
+            </view>
+            <view class="like">
+              <t-like bindtapLike='clickLike' type='{{item.type}}' likeNum='{{item.fav_nums}}'
+                likeId='{{item.id}}' isLike='{{item.like_status}}'></t-like>
+            </view>
+          </view>
+        </l-transition>
+      </view>
+    </view>
+  </scroll-view>
+</view>

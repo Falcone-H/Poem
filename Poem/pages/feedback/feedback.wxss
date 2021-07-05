@@ -1,0 +1,131 @@
+
+.yijian-wrap {
+	width: 92%;
+	height: 400rpx;
+	margin: 50rpx auto;
+}
+.yijian-txt {
+	width: 100%;
+	height: 100%;
+  background-color: #F2F6FC;
+}
+
+/* 相册 */
+.img-wrap {
+	margin-top: 45rpx;
+	width: 150rpx;
+	height: 150rpx;
+	line-height: 150rpx;
+	text-align: center;
+	background-color: #F2F6FC;
+	position: relative;
+}
+.yijian-img {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	position: absolute;
+	left: -9999rpx;
+	top: -9999rpx;
+}
+
+.gai {
+	left: 0;
+	top: 0;
+}
+.jiahao-txt {
+	font-size: 60rpx;
+	color: #969696;
+}
+
+/* 提交 */
+.submit-wrap {
+	height: 80rpx;
+	line-height: 80rpx;
+	width: 90%;
+	color: #FFFFFF;
+	font-size: 30rpx;
+	text-align: center;
+	border-radius: 37rpx;
+	position: fixed;
+	left: calc(4.8%);
+	bottom: 50rpx;
+	background: -webkit-linear-gradient(left, #7BD68E, #65CCB9);
+	background: linear-gradient(to right, #7BD68E, #65CCB9);
+}
+.opatity {
+	opacity: 0.5;
+}
+
+
+.img {
+  margin-top: 50rpx;
+  padding: 5rpx 20rpx 0 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background: #fff;
+}
+
+.img .add .upload {
+  height: 108rpx;
+  width: 108rpx;
+  border: 2rpx solid #ddd;
+}
+
+.img .add .delete {
+  position: absolute;
+  height: 34rpx;
+  width: 34rpx;
+  float: right;
+  transform: translate(270%, -40%);
+}
+
+.img .add {
+  display: block;
+  height: 200rpx;
+  width: 200rpx;
+  /* margin-right:27rpx; */
+  margin-right: 20rpx;
+  background: #f4f4f4;
+  border: 1rpx solid #ddd;
+  margin-bottom: 30rpx;
+}
+
+.img .add .txt {
+  margin-top: 7px;
+  text-align: center;
+  display: block;
+  color: #999;
+  font-size: 30rpx;
+}
+
+.img .add .icon {
+  height: 90rpx;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 7rpx;
+}
+
+.img .blur {
+  filter: blur(1rpx);
+  background-size: cover;
+  background-position: center center;
+}
+
+.img .loading {
+  height: 55rpx;
+  width: 46%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30rpx;
+}
+
+.btn_box {
+  margin-top: 130px;
+}
+
+

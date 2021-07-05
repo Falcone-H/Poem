@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "t-like":"../../components/like/index",
+    "l-transition": "../../miniprogram_npm/lin-ui/transition"
+  },
+  "navigationBarTitleText": "首页",
+  "backgroundColor": "#0D1740",
+  "navigationBarBackgroundColor": "#0D1740",
+  "navigationBarTextStyle": "white"
+}

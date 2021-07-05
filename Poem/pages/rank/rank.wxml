@@ -1,0 +1,17 @@
+<view>
+  <view class="img_box">
+    <image src="../../images/rank/rank2.png"></image>
+  </view>
+  <view class="info_box"
+    style="position: absolute; left: 0rpx; top: 570rpx; width: 675rpx; height: 143rpx; display: block; box-sizing: border-box">
+    <view style="width: 134rpx; height: 94rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+      <image src="../../images/rank/top.png"
+        style="position: relative; width: 136rpx; height: 78rpx; display: inline-block; box-sizing: border-box; left: 35rpx; top: 29rpx">
+      </image>
+    </view>
+    <view class="center_img" style="position: relative; left: 207rpx; top: -99rpx">
+      <open-data type="userAvatarUrl" class="user_head"></open-data>
+    </view>
+    <text style="position: relative; left: 118rpx; top: -176rpx">Allen Poe</text>
+  </view>
+</view>

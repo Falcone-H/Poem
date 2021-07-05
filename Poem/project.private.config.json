@@ -1,0 +1,24 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/myfavor/myfavor",
+          "pathName": "pages/myfavor/myfavor",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/classic/classic",
+    "pages/travel/travel",
+    "pages/trip/trip",
+    "pages/person/person",
+    "pages/credit/credit",
+    "pages/feedback/feedback",
+    "pages/about/about",
+    "pages/rank/rank",
+    "pages/myfavor/myfavor"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff"
+  },
+  "style": "v2",
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#c7c7c7",
+    "selectedColor": "#333333",
+    "list": [{
+        "pagePath": "pages/classic/classic",
+        "text": "诗句",
+        "iconPath": "images/tabBar/classic.png",
+        "selectedIconPath": "images/tabBar/classic@highlight.png"
+      },
+      {
+        "pagePath": "pages/travel/travel",
+        "text": "远方",
+        "iconPath": "images/tabBar/book.png",
+        "selectedIconPath": "images/tabBar/book@highlight.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人",
+        "iconPath": "images/tabBar/my.png",
+        "selectedIconPath": "images/tabBar/my@highlight.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

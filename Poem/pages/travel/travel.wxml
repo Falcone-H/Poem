@@ -1,0 +1,15 @@
+<import src="../../components/trip/trip.wxml"/>
+
+<view class="travel_list">
+  <scroll-view class="list" style="height: {{ windowHeight }}px; width: {{ windowWidth }}px;" scroll-y="true"  bindscrolltolower="loadMore" lower-threshold="800">
+    <block wx:for="{{ trips }}" wx:for-item="trip" wx:key="trip.data[0].id">
+      <template is="m-trip" wx:if="{{ trip.type === 4 }}" data="{{trip: trip.data[0], mode: 1}}" />
+    </block>
+    <view class="loading">
+      正在加载...
+    </view>
+  </scroll-view>
+  <!-- <view class="post_btn">
+    <image src="../../images/travel/post.png" bindtap="handlePost" class="post_btn_img"></image>
+  </view> -->
+</view>
