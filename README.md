@@ -6,21 +6,21 @@
 
 ## 体验二维码
 
-![2](远诗/imgs/2.png)
+![2](./imgs/2.png)
 
 
 
 ## 小程序截图
 
-<img src="远诗/imgs/1.jpg" alt="1" style="zoom: 50%;" />
+<img src="./imgs/1.jpg" alt="1" style="zoom: 50%;" />
 
-<img src="远诗/imgs/2.jpg" alt="2" style="zoom:50%;" />
+<img src="./imgs/2.jpg" alt="2" style="zoom:50%;" />
 
 
 
-<img src="远诗/imgs/4.jpg" alt="4" style="zoom:50%;" />
+<img src="./imgs/4.jpg" alt="4" style="zoom:50%;" />
 
-<img src="远诗/imgs/3.jpg" alt="3" style="zoom:50%;" />
+<img src="./imgs/3.jpg" alt="3" style="zoom:50%;" />
 
 
 
@@ -46,7 +46,7 @@
 
 自己找图片导入到微信小程序的云存储上，像这样：
 
-![1](远诗/imgs/1.png)
+![1](./imgs/1.png)
 
 
 
